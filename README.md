@@ -8,3 +8,14 @@
 ### Index (or Contents)
 
 - working -> Cheap Thumb Joystick - Pending...
+
+## Disclaimer
+<p>Any Information, including the Electronic Schematics and the Software (AI_ES_S) is provided as is, without any representation or warranty of any kind, either express or implied, including without limitation any representations or endorsements regarding the use of, the results of, or performance of the product, its appropriateness, accuracy, reliability, or correctness. </p>
+
+<p>The entire risk as to the use of AI_ES_S is assumed by Licensee (MIT). </p>
+
+<p>Carpenter Software LC (AUTHOR) does not assume liability for the use of this AI_ES_S. In no event will the AUTHOR be liable for additional direct or indirect damages including any lost profits, lost savings, or other incidental or consequential damages arising from any defects, or the use or inability to use these programs, even if AUTHOR has been advised of the possibility of such damages. </p>
+
+<p>The MageMCU GitHub account is a living workspace used by the AUTHOR for the AUTHOR and if by consequence the AI_ES_S is used by a Licensee then the Licensee is solely responsible.</p>
+
+<p>Parents and Teachers: This Github Account is restricted to minors. When working with electricity of any kind, they should be directed and instructed by a responsible mentor.</p>
