@@ -19,4 +19,4 @@
 
 <p>The MageMCU GitHub account is a living workspace used by the AUTHOR for the AUTHOR and if by consequence the AI_ES_S is used by a Licensee then the Licensee is solely responsible.</p>
 
-<p>**Parents and Teachers:** This Github Account is restricted to minors. When working with electricity of any kind, they should be directed and instructed by a responsible mentor. A USER (Licensee) must be at least 13 years of age when using GitHub. **All minors (children younger than 18 years of age), please consult your parent, your gaurdian, your mentor or your teacher before experimenting with any of these electronic circuits. Electricity Kills.**</p>
+<p><strong>Parents and Teachers:</strong> This Github Account is restricted to minors. When working with electricity of any kind, they should be directed and instructed by a responsible mentor. A USER (Licensee) must be at least 13 years of age when using GitHub. <strong>All minors (children younger than 18 years of age), please consult your parent, your gaurdian, your mentor or your teacher before experimenting with any of these electronic circuits. Electricity Kills.</strong></p>
