@@ -41,11 +41,11 @@ y = (y2 - y1) * (x - x1) / (x2 - x1) + y1
 <p/>
 
 <p>
-The problem when using the map() function, is the ordered pair (x, y) values where the values within the two points P1(x1, y1) and P2(x2, y2) are mismatched. A good test for beginners is trying to convert the Fahrenheit to Celsius scales (or Celsius to Fahrenheit) by matching the boiling points and the freezing points of water thus creating two points P1 and P2. The mismatching comes about when mixing apples with oranges or precisely, mixing a boilin point with a freezing point of water as a Point of an order pair P(x, y). The correct way of matching an order pair for example, temperature of boiling water as P(212, 100) or as P(100, 212) is relative in that water boils at 212 degrees Fahrenheit and 100 degrees Celsius.
+The problem when using the map() function, is the ordered pair (x, y) values where the values within the two points P1(x1, y1) and P2(x2, y2) are mismatched. A good test for beginners is trying to convert the Fahrenheit to Celsius scales (or Celsius to Fahrenheit) by matching the boiling-points and the freezing-points of water thus creating two points P1 and P2. The mismatching comes about when mixing apples with oranges or precisely, mixing a boiling-point value with a freezing-point value of water as a Point of an order pair P(x, y). The matching of an order pair for example, should be temperature of boiling water as P(212, 100) or as P(100, 212) relative in that water boils at 212 degrees Fahrenheit and 100 degrees Celsius.
 <p/>
 
 <p>
-Knowing the boiling and freezing points of water, convert 75 degrees Fahrenheit to Celsius using equation (d).
+Knowing the boiling and freezing-points of water, convert 75 degrees Fahrenheit to Celsius using equation (d).
 <p/>
 
 <p>
