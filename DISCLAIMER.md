@@ -26,4 +26,4 @@
 
 ## Minors (Children) and Teenagers <a name="minors-and-teeagers"></a>
 
-<p><strong>All children (younger than 13 years of age) and teenagers (younger than 18 years of age), please consult with your parent </strong>(your gaurdian, your mentor or your teacher) <strong>before experimenting with any of these electronic circuits. Never work with electricity alone. Electricity Kills.</strong></p>
+<p><strong>All children and teenagers, please consult with your parent </strong>(your gaurdian, your mentor or your teacher) <strong>before experimenting with any of these electronic circuits. Never work with electricity alone. Electricity Kills.</strong></p>

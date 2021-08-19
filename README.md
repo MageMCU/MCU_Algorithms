@@ -2,9 +2,9 @@
 
 - [About - MCU Algorithms](#about-mcu-algorithms)
 - [Pupose](#purpose)
-- [Contents](#contents)
-  - [Joystick](#joystick)
-    - [Joystick voltage test](#joystick-voltage-test)
+- [Joystick](#joystick)
+- [Functions](#functions)
+    - [Map()](#map-function)
 
 </hr>
 
@@ -14,9 +14,20 @@
 
 </hr>
 
-## Contents <a name="contents"></a>
+## Joystick <a name="joystick"></a>
 
 <p>
-- Joystick <a name="joystick"></a></br>
-  - Joystick voltage test <a name="joystick-voltage-test"></a></br>
+The analog 2-axis thumb joystick with button by Makerfabs (China). The joystick has two analog(10k potentiometers), you'll need two analog (ADC) reading pins on your microcontroller to determine X and Y.
+<p/>
+
+## Functions <a name="functions"></a>
+
+<p>
+The list of functions are used to support the analog joystick.
+<p/>
+
+<p>
+ - <strong>(T) class-name::map(T-parameters)<strong/> <a name="map-function"></a> The function maps the domain of (x) onto the range of f(x) such that f(x) is a linear function where f(x) = ax + b. The T-parameters uses a known value (x) and two known points P1(x1, y1) and P2(x2, y2) where the parameters are map(x, x1, x2, y1, y2). The return type (T) is the unknown value f(x) = y. The template type (T) defines the template data type such as int or float.
   </p>
+
+  <p>Work in Process ~ LIBRARY<p/>
