@@ -27,7 +27,7 @@ The list of functions are used to support the analog joystick.
 <p/>
 
 <p>
- - Map() <a name="map-function"></a> <br/> <strong>(T) class-name::map(T-parameters)<strong/> The function maps the domain of (x) onto the range of f(x) such that f(x) is a linear function where f(x) = ax + b. The T-parameters uses a known value (x) and two known points P1(x1, y1) and P2(x2, y2) where the parameters are map(x, x1, x2, y1, y2). The return type (T) is the unknown value f(x) = y. The template type (T) defines the template data type such as int or float.
+ - Map() <a name="map-function"></a> <br/> (T) class-name::map(T-parameters) - The function maps the domain of (x) onto the range of f(x) such that f(x) is a linear function where f(x) = ax + b. The T-parameters uses a known value (x) and two known points P1(x1, y1) and P2(x2, y2) where the parameters are map(x, x1, x2, y1, y2). The return type (T) is the unknown value f(x) = y. The template type (T) defines the template data type such as int or float.
   </p>
 
   <p>Work in Process ~ LIBRARY<p/>
