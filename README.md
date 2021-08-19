@@ -1,7 +1,6 @@
 ## Index
 
 - [About - MCU Algorithms](#about-mcu-algorithms)
-- [Pupose](#purpose)
 - [Joystick](#joystick)
 - [Functions](#functions)
     - [Map()](#map-function)
