@@ -13,7 +13,7 @@ In basic algebra, it is a linear function mapping x to f(x) where f(x) = ax + b.
 <p/>
 
 <p align="center">
-y= mx + b
+** y= mx + b ** 
 <p/>
 
 <p>
@@ -21,7 +21,7 @@ y= mx + b
 <p/>
 
 <p align="center">
-m = (y2 - y1) / (x2 - x1)
+** m = (y2 - y1) / (x2 - x1) **
 <p/>
 
 <p>
@@ -29,7 +29,7 @@ m = (y2 - y1) / (x2 - x1)
 <p/>
 
 <p align="center">
-y - y1 = m(x - x1)
+** y - y1 = m(x - x1) **
 <p/>
 
 <p>
@@ -37,7 +37,7 @@ y - y1 = m(x - x1)
 <p/>
 
 <p align="center">
-y = (y2 - y1) * (x - x1) / (x2 - x1) + y1
+** y = (y2 - y1) * (x - x1) / (x2 - x1) + y1 **
 <p/>
 
 <p>
@@ -63,9 +63,9 @@ The map() fuction might be used to center a thumb joystick ADC readings offset b
 <p>
 An alternate way to describe the map() function is based on the relationship between the number-lines. Let's use the Fahrenheit and the Celsius scales as an example simplified by using integers.<br/><br/>
 Fahrenheit scale<br/>
-|32----50-------77----100-------------------150----------------------212|<br>
-|P1-------------**----------------------------------------------------P2|<br>
-|0--------------25------------------50-------------------------------100|<br>
+``|32     50      77        100                150                     212|``<br>
+``|P1-------------------------------------------------------------------P2|``<br>
+``|0              25                  50                               100|``<br>
 Celcius scale<br/><br/>
 Each number-line has equal spacing between each integer. When considering the two points P1 and P2 as anchors, The Fahrenheit scale has more integers but smaller spacing when compared to the Celcius scale. The map() fuction then is used to either stretch the spacing between integers or shrink the spacing. This is acomplished by the slope-m when the slope-m is greater than one (1) then the number of integers on the number-line increases thus shrinking the spacing relative to the other number-line whose values are also anchored.
 <p/>
@@ -75,7 +75,7 @@ To center the joystick using the x-axis as an example having a number-line from 
 <p/>
 
 <p align="center">
-desired-reading = map(actual-reading, 0, 528, 0, 512)
+** desired-reading = map(actual-reading, 0, 528, 0, 512) **
 <p/>
 
 <p>What happens is that the ideal number-line from 0 to 1023 remains the same and is used as shown. What does change are the actual values either by shrinking the spacing on one side and by expanding the spacing on the other converting the offset value from 528 to a desired value of 512. Try picturing this in your mind.
