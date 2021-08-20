@@ -1,7 +1,7 @@
 ## Index
 
 - [About - MCU Algorithms](#about-mcu-algorithms)
-  - [Chip](#atmega328p)
+  - [MCU Chip](#mcu-chip)
 - [Joystick](#joystick)
   - [Functions](#joystick-functions)
     - [Map()](#map-function)
@@ -15,7 +15,7 @@
 
 The MCU-Algorithms is a collection of small C++ snippets yet they're complete as stand-alone code.
 
-## Atmega328P  <a name="atmega328p"></a>
+## MCU chip  <a name="mcu-chip"></a>
 
 This MCU chip **Atmega328P** is well known and the price is affordable as well as most of the robotic hardware that is used here. The **cheaper** ... the **better**... Knowledge for those who want to learn.
 
