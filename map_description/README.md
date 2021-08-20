@@ -56,7 +56,7 @@ The important observation here is that the entire number-line is transformed. Th
 
 The question for an astute reader is which of the two of the four number-lines are changing and which side of the two is compressed and which one is stretched. Hint: the number-line for the actual readings do not change. 
 
-What data type (T) ought be used (int or double) for this transformation to work as described. Why? Test, test, test! Unforunately this does not work properly for Arduino's map() function because the mapping from x to f(x) is not one to one.
+What data type (T) ought be used (int or double) for this transformation to work as described. Why? Test, test, test! Unforunately this does not work properly for Arduino's map() function because the mapping from x to f(x) is not one to one. The reason when processing between the two distinct values (x) and f(x) some information is lost.
 
 The map() function although simple in appearance yet with careful study, the map() function is a powerful tool. This method can be expanded to arrays of points such as Least Squares Fitting (x, f(x)) for example and then protracting the experimetntal (x) values onto F(x). Lidar distance readings never give a set of points to form a perfect line nor a perfect curve. Is this apples and oranges? Maybe! Applied Math is the scientist and engineer's most important tool even though the mathematician might disagree.
 
