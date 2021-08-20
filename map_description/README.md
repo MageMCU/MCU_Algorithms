@@ -47,12 +47,16 @@ By using the map() function, we could otherwise center the error mathematically.
 Let's discuss what's happening in further detail. The ideal number-line from 0 to 1023 is used to obtain the desired result. While keeping in mind that the points P1 and P2 are used to anchor the number-lines, so what happens when we split the number-line with the actual readings at the point of the erroneous center? A new point is created between the points P1 and P2 lets's say point Pc where Pc contains the ordered pair (528, 512). Now there are four (4) number-lines but only two (2) sets of order pairs used which are conditionally determined based on the ADC reading. Pictorially, the transformations on either side of the erroneous center becomes obvious as shown.
 
 ``Actual ADC Readings (x)``<br>
-``|0--------------250----------------Pc|528|Pc----------750-----------1023|``<br>
-``|P1-------------------------------------------------------------------P2|``<br>
-``|0-------------250-------------Pc|512|Pc------------750-------------1023|``<br>
+``|0--------------250-----------------|528|-------------750-----------1023|``<br>
+``|P1---------------------------------Pc--------------------------------P2|``<br>
+``|0---------------250--------------|512|-------------750-------------1023|``<br>
 ``Desired ADC Readings (y)``<br>
 
-The important observation here is that the entire number-line is transformed not just the erroneous value.
+The important observation here is that the entire number-line is transformed. The analogy is like shifting a fixed center point of the spring while both ends are also fixed causing one side of the spring to be compressed and the other side to be stretched. 
+
+The question for an astute reader is which of the two of the four number-lines are changing and which side of the two is compressed and which one is stretched. Hint: the number-line for the actual readings do not change. 
+
+What data type (T) ought be used (int or double) for this transformation to work as described. Why? Test, test, test! Unforunately this does not work properly for Arduino's map() function because the mapping from x to f(x) is not one to one.
 
 The map() function although simple in appearance yet with careful study, the map() function is a powerful tool. This method can be expanded to arrays of points such as Least Squares Fitting (x, f(x)) for example and then protracting the experimetntal (x) values onto F(x). Lidar distance readings never give a set of points to form a perfect line nor a perfect curve. Is this apples and oranges? Maybe! Applied Math is the scientist and engineer's most important tool even though the mathematician might disagree.
 
