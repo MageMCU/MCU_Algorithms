@@ -28,7 +28,7 @@ namespace mcu {
       // Assume linear functions
       // m = (y2 - y1)/(x2 - x1)
       // (y - y1) = m(x - x1)
-      return (y2 -y1) * (x - x1) / (x2 - x1) + y1;
+      return (y2 - y1) * (x - x1) / (x2 - x1) + y1;
     }
   };
 }
