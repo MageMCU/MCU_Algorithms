@@ -5,6 +5,7 @@
 - [Joystick](#joystick)
   - [Functions](#joystick-functions)
     - [Map()](#map-function)
+    - [More Functions to Come](#more-to-come)
 - [Motor Driver L298N](#L298N)
   - [Functions](#L298N-functions)
     - [PINS()](#pins-function)
@@ -31,6 +32,8 @@ The list of functions used to support the analog joystick.
 
  - Map() <a name="map-function"></a> <br/> (T) class-name::map(T-parameters) - The function maps the domain of (x) onto the range of f(x) such that f(x) is a linear function where f(x) = ax + b. The T-parameters uses a known value (x) and two known points P1(x1, y1) and P2(x2, y2) where the parameters are map(x, x1, x2, y1, y2). The return type (T) is the unknown value f(x) = y. The template type (T) defines the template data type such as int or float.
 
+ - More Function to Come <a name="more-to-come"></a>
+
 </hr>
 
 ## Motor Driver L298N <a name="L298N"></a>
@@ -41,4 +44,4 @@ Pending...
 
  - PINS() <a name="pins-function"></a><br/> pending ...
 
-Work in Process...
+Work in Process...organizing and that darn github text syntax stuff!
