@@ -60,6 +60,8 @@ What data type (T) ought be used (int or double) for this transformation to work
 
 As to what information is lost, try interchanging the data type (T) between (int and double) using the Fahrenheit and Celsius scales to observe the precision that is obtained between the data types.
 
+Actually number-lines do not change but the processing or the transformation causes the change. As you're trying to wrap this around your head, the transformation itself between two values plays into this illusion.
+
 The map() function although simple in appearance yet with careful study, the map() function is a powerful tool. This method can be expanded to arrays of points such as Least Squares Fitting (x, f(x)) for example and then protracting the experimetntal (x) values onto F(x). Lidar distance readings never give a set of points to form a perfect line nor a perfect curve. Is this apples and oranges? Maybe! Applied Math is the scientist and engineer's most important tool even though the mathematician might disagree.
 
 A final note on using the scientific method to answer basic questions that would improve the performance of the robot. For example, to determine the kinetic friction ADC values for a differential drive mobile robot, experimentation is necessay using either an engineering log or science lab notebook to answer such questions. The written notes prevents repeating redundant investigations on the same emperical research. The investigative results that answers such questions will always be an arms length away.
