@@ -6,19 +6,19 @@ In basic algebra, it is a linear function mapping x to f(x) where f(x) = ax + b.
 
  - (a) The common slope-intercept form for the equation of a line with slope m and y-intercept: 
 
-  - ** y= mx + b ** 
+ > y= mx + b 
 
  - (b) The slope m of the line through two points P1(x1, y1) and P2(x2, y2):
 
-  - ** m = (y2 - y1) / (x2 - x1) **
+ > m = (y2 - y1) / (x2 - x1)
 
  - (c) The point-slope form for the equation of a line through P1(x1, y1) with slope m:
 
-  - ** y - y1 = m(x - x1) **
+ > y - y1 = m(x - x1)
 
  - (d) The map() function combines both the slope equation (b) and the point-slope form equation (c) together:
 
-  - ** y = (y2 - y1) * (x - x1) / (x2 - x1) + y1 **
+ > y = (y2 - y1) * (x - x1) / (x2 - x1) + y1
 
 The problem when using the map() function, is the ordered pair (x, y) values where the values within the two points P1(x1, y1) and P2(x2, y2) are mismatched. A good test for beginners is trying to convert the Fahrenheit to Celsius scales (or Celsius to Fahrenheit) by matching the boiling-points and the freezing-points of water thus creating two points P1 and P2. The mismatching comes about when mixing apples with oranges or precisely, mixing a boiling-point value with a freezing-point value of water as a Point of an order pair P(x, y). The matching of an order pair for example, should be temperature of boiling water as P(212, 100) or as P(100, 212) relative in that water boils at 212 degrees Fahrenheit and 100 degrees Celsius.
 
@@ -38,7 +38,7 @@ Each number-line has equal spacing between each integer. When considering the tw
 
 To center the joystick using the x-axis as an example having a number-line from an ideal ADC readings let's say from 0 to 1023, the ideal center is about 512. If the actual center reading is 528 instead of the 512. The number-line is split into two number-lines where one is from 0 to 528 and the other is from 528 to 1023. To decide which line to use depends on the input ADC reading. Finally to obtain the desired-reading from an actual-reading using the map() function assuming the actual-reading is greater than 0 and less than 528 inclusively, then try the following: 
 
-  - ** desired-reading = map(actual-reading, 0, 528, 0, 512) **
+  > desired-reading = map(actual-reading, 0, 528, 0, 512)
 
 What happens is that the ideal number-line from 0 to 1023 remains the same and is used as shown. What does change are the actual values either by shrinking the spacing on one side and by expanding the spacing on the other converting the offset value from 528 to a desired value of 512. Try picturing this in your mind.
 
