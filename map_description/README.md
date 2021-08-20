@@ -63,9 +63,9 @@ The map() fuction might be used to center a thumb joystick ADC readings offset b
 <p>
 An alternate way to describe the map() function is based on the relationship between the number-lines. Let's use the Fahrenheit and the Celsius scales as an example simplified by using integers.<br/><br/>
 Fahrenheit scale<br/>
-|32    50       77    100                   150                      212|<br>
-|P1-------------------------------------------------------------------P2|<br>
-|0              25                  50                               100|<br>
+|32----50-------77----100-------------------150----------------------212|<br>
+|P1-------------**----------------------------------------------------P2|<br>
+|0--------------25------------------50-------------------------------100|<br>
 Celcius scale<br/><br/>
 Each number-line has equal spacing between each integer. When considering the two points P1 and P2 as anchors, The Fahrenheit scale has more integers but smaller spacing when compared to the Celcius scale. The map() fuction then is used to either stretch the spacing between integers or shrink the spacing. This is acomplished by the slope-m when the slope-m is greater than one (1) then the number of integers on the number-line increases thus shrinking the spacing relative to the other number-line whose values are also anchored.
 <p/>
@@ -74,7 +74,7 @@ Each number-line has equal spacing between each integer. When considering the tw
 To center the joystick using the x-axis as an example having a number-line from an ideal ADC readings let's say from 0 to 1023, the ideal center is about 512. If the actual center reading is 528 instead of the 512. The number-line is split into two number-lines where one is from 0 to 528 and the other is from 528 to 1023. To decide which line to use depends on the input ADC reading. Finally to obtain the desired-reading from an actual-reading using the map() function assuming the actual-reading is greater than 0 and less than 528 inclusively, then try the following: 
 <p/>
 
-<p>
+<p align="center">
 desired-reading = map(actual-reading, 0, 528, 0, 512)
 <p/>
 
