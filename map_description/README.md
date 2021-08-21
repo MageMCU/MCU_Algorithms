@@ -60,7 +60,7 @@ What data type (T) ought be used (int or double) for this transformation to work
 
 As to what information is lost, try interchanging the data type (T) between (int and double) using the Fahrenheit and Celsius scales to observe the precision that is obtained between the data types.
 
-Actually number-lines themselves do not change but the processing or the transformation causes the change. The transformation itself between two values plays into this illusion. So what is changing?
+Actually number-lines themselves do not change but the processing or the transformation causes the change. The transformation itself between two values plays into this illusion. So what is changing? The test-1 results:
 
 ``----- SIDE (0 - 528) ----``<br>
 ``Actual |300 - 301| = 1``<br>
@@ -73,8 +73,24 @@ Actually number-lines themselves do not change but the processing or the transfo
 ``Desired |586.327 - 587.36| = 1.03232``<br>
 ``Actual |601 - 602| = 1``<br>
 ``Desired |587.36 - 588.392| = 1.03232``<br>
-
+``
 The results do convey a change on either side for the values of f(x) but its an incremental difference. The incremental differences are constant which shows that the number-lines do not change. The center point Pc(528, 512) simply splits a single number-line into two that are relative only to the initial values of (x) not to each other. As we're trying as one might to wrap the map() function around our heads, one could argue we do have a rhetorical differential spring whatever that might be... 
+
+Returning our thoughts back to the MCU, the precision using the double data type is not really necessary and it is really a loss of precious memory and processing time. The ADC readings uses integers. So for test-2, let's compare some integers with test-1:
+
+``----- SIDE (0 - 528) ----``<br>
+``Actual |300 - 301| = 1``<br>
+``Desired |290.909 - 291.879| = 0.969697 iDesired: 291 lMapped: 291``<br>
+``Actual |301 - 302| = 1``<br>
+``Desired |291.879 - 292.848| = 0.969697 iDesired: 292 lMapped: 292``<br>
+
+``--- SIDE (528 - 1023) ---``<br>
+``Actual |600 - 601| = 1``<br>
+``Desired |586.327 - 587.36| = 1.03232 iDesired: 587 lMapped: 587``<br>
+``Actual |601 - 602| = 1``<br>
+``Desired |587.36 - 588.392| = 1.03232 iDesired: 588 lMapped: 588``<br>
+
+Interesting how the lMapped agrees with the iDesired values but more importantly, the lMapped values sits between the constant incremented differences. So although Arduino's map() function is not precise it is sufficient enough for the MCU. Although I did not take the full scan of the results from 0 to 1023, the question is there a bump in the road. If so, well its OK.
 
 The map() function although simple in appearance yet with careful study, the map() function is a powerful tool. This method can be expanded to arrays of points such as Least Squares Fitting (x, f(x)) for example and then protracting the experimetntal (x) values onto F(x). Lidar distance readings never give a set of points to form a perfect line nor a perfect curve. Is this apples and oranges? Maybe! Applied Math is the scientist and engineer's most important tool even though the mathematician might disagree.
 

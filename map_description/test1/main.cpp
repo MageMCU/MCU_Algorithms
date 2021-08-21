@@ -11,7 +11,7 @@
 //
 
 #include <iostream>
-#include "include/map.hpp"
+#include "../include/map.hpp"
 
 int main()
 {
@@ -23,21 +23,23 @@ int main()
   double desired = 0;
 
   int start = 300;
-  int few = 2;
+  int addPoints = 2;
+  int limit = 2;
 
   std::cout << "\n----- SIDE (0 - 528) ----\n";
-  for (int i = start; i < (start * few + 1); i += start)
+  for (int i = start; i < (start * limit + 1); i += start)
   {
-    for (int actual = i; actual < (i + few + 1); actual++)
+    for (int actual = i; actual < (i + addPoints + 1); actual++)
     {
-      if (actual == start * few)
+      if (actual == start * limit)
         std::cout << "\n--- SIDE (528 - 1023) ---\n";
-      if (i < (start + few + 1))
+
+      if (i < (start + addPoints + 1))
       {
-        // All we need is a few points for testing the first side
+        // All we need is to add points for testing the first side
         desired = dM.map(actual, 0, 528, 0, 512);
       }
-      else if (i > (start + few + 1))
+      else if (i > (start + addPoints + 1))
       {
         // Now the other side
         desired = dM.map(actual, 528, 1023, 512, 1023);
