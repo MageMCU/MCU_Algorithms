@@ -30,7 +30,9 @@ The analog 2-axis thumb joystick with button by Makerfabs (China). The joystick 
 
 The list of functions used to support the analog joystick.
 
- - Map() <a name="map-function"></a> <br/> (T) class-name::map(T-parameters) - The function maps the domain of (x) onto the range of f(x) such that f(x) is a linear function where f(x) = ax + b. The T-parameters uses a known value (x) and two known points P1(x1, y1) and P2(x2, y2) where the parameters are map(x, x1, x2, y1, y2). The return type (T) is the unknown value f(x) = y. The template type (T) defines the template data type such as int or float.
+ - Map() <a name="map-function"></a> <br/> (T) namespace::class-name::map(T-parameters) - The function maps the domain of (x) onto the range of f(x) such that f(x) is a linear function where f(x) = ax + b. The T-parameters uses a known value (x) and two known points P1(x1, y1) and P2(x2, y2) where the parameters are map(x, x1, x2, y1, y2). The return type (T) is the unknown value f(x) = y. The template type (T) defines the template data type such as int or float.
+
+  - For more comprehensive details, see map_description.
 
  - More Function to Come <a name="more-to-come"></a>
 
@@ -38,7 +40,7 @@ The list of functions used to support the analog joystick.
 
 ## Motor Driver L298N <a name="L298N"></a>
 
-Pending...
+The double H bridge motor drive module (uses ST company's L298N as the main driver chip) by Album (China). The module is featuring strong driving capability, low heat generation and strong anti-interference ability. This module can use the built-in 78M05 to take power through the drive power supply part, but in order to avoid the damage of the voltage regulator chip, when using the drive voltage greater than 12V, please use the external 5V logic power supply.This module uses a large-capacity filter capacitor and a freewheeling protection diode to improve reliability. You'll need two PWM pins and 4 digital pins.
 
 ## Functions <a name="L298N-functions"></a>
 
