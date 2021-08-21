@@ -73,7 +73,7 @@ Actually number-lines themselves do not change but the processing or the transfo
 ``Desired |586.327 - 587.36| = 1.03232``<br>
 ``Actual |601 - 602| = 1``<br>
 ``Desired |587.36 - 588.392| = 1.03232``<br>
-``
+
 The results do convey a change on either side for the values of f(x) but its an incremental difference. The incremental differences are constant which shows that the number-lines do not change. The center point Pc(528, 512) simply splits a single number-line into two that are relative only to the initial values of (x) not to each other. As we're trying as one might to wrap the map() function around our heads, one could argue we do have a rhetorical differential spring whatever that might be... 
 
 Returning our thoughts back to the MCU, the precision using the double data type is not really necessary and it is really a loss of precious memory and processing time. The ADC readings uses integers. So for test-2, let's compare some integers with test-1:
