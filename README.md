@@ -44,6 +44,6 @@ The double H bridge motor drive module (uses ST company's L298N as the main driv
 
 ### L298N Functions <a name="L298N-functions"></a>
 
- - PINS() <a name="pins-function"></a><br/> pending ...
+ - **PINS()** <a name="pins-function"></a><br/> pending ...
 
-Work in Process...organizing and that darn github text syntax stuff!
+*Work in Process...organizing and that darn github text syntax stuff!*
