@@ -30,7 +30,7 @@ The analog 2-axis thumb joystick with button by Makerfabs (China). The joystick 
 
 The list of functions used to support the analog joystick.
 
- - Map() <a name="map-function"></a> <br/> (T) namespace::class-name::map(T-parameters) - The function maps the domain of (x) onto the range of f(x) such that f(x) is a linear function where f(x) = ax + b. The T-parameters uses a known value (x) and two known points P1(x1, y1) and P2(x2, y2) where the parameters are map(x, x1, x2, y1, y2). The return type (T) is the unknown value f(x) = y. The template type (T) defines the template data type such as int or float.
+ - **Map()** <a name="map-function"></a> <br/> (T) namespace::class-name::map(T-parameters) - The function maps the domain of (x) onto the range of f(x) such that f(x) is a linear function where f(x) = ax + b. The T-parameters uses a known value (x) and two known points P1(x1, y1) and P2(x2, y2) where the parameters are map(x, x1, x2, y1, y2). The return type (T) is the unknown value f(x) = y. The template type (T) defines the template data type such as int or float.
 
    - For more comprehensive details, see map_description.
 
