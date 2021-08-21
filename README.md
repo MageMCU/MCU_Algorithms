@@ -40,7 +40,7 @@ The list of functions used to support the analog joystick.
 
 ## Motor Driver L298N <a name="L298N"></a>
 
-The double H bridge motor drive module (uses ST company's L298N as the main driver chip) by Album (China). The module is featuring strong driving capability, low heat generation and strong anti-interference ability. This module can use the built-in 78M05 to take power through the drive power supply part, but in order to avoid the damage of the voltage regulator chip, when using the drive voltage greater than 12V, please use the external 5V logic power supply.This module uses a large-capacity filter capacitor and a freewheeling protection diode to improve reliability. You'll need two PWM pins and 4 digital pins.
+The double H bridge motor drive module (uses ST company's L298N as the main driver chip) by Album (China). The module is featuring strong driving capability, low heat generation and strong anti-interference ability. This module can use the built-in 78M05 to take power through the drive power supply part, but in order to avoid the damage of the voltage regulator chip, when using the drive voltage greater than 12V, please use the external 5V logic power supply.This module uses a large-capacity filter capacitor and a freewheeling protection diode to improve reliability. You'll need two PWM pins for ENA and ENB and four digital pins for IN1, IN2, IN3 and IN4.
 
 ## Functions <a name="L298N-functions"></a>
 
