@@ -18,7 +18,7 @@ The MCU-Algorithms is a collection of small C++ snippets yet they're complete as
 
 ## MCU chip  <a name="mcu-chip"></a>
 
-This MCU chip **Atmega328P** is well known and the price is affordable as well as most of the robotic hardware that is used here. The **cheaper** ... the **better**... Knowledge for those who want to learn.
+This MCU chip **Atmega328P** is well known and the price is affordable as well as most of the robotic hardware that is used here. The **cheaper** ... the **better**... Knowledge for those who are **starving** to learn.
 
 </hr>
 
