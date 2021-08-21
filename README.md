@@ -34,7 +34,7 @@ The list of functions used to support the analog joystick.
 
    - For more comprehensive details, see map_description.
 
- - More Function to Come <a name="more-to-come"></a>
+ - More Functions to Come <a name="more-to-come"></a>
 
 </hr>
 
