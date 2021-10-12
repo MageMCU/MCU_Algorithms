@@ -8,7 +8,7 @@
 
 </hr>
 
-## About MCU-Algorithms <a name="about-mcu-algorithms"></a>
+## About MCU Algorithms <a name="about-mcu-algorithms"></a>
 
 The MCU-Algorithms is a collection of small C++ snippets yet they're complete as stand-alone code.
 
