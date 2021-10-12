@@ -11,12 +11,12 @@
 // 
 
 #include <iostream>
-#include "../include/map.hpp"
+#include "../include/Muth.h"
 
 int main()
 {
   // Test Points - Freezing(32, 0), Boiling(212, 100)
-  mcu::Map<double> dM;
+  uno::Muth<double> dM;
   
   double fahrenheit = (double) 77;
   double celsius = dM.map(fahrenheit, 

@@ -11,13 +11,13 @@
 //
 
 #include <iostream>
-#include "../include/map.hpp"
+#include "../include/Muth.h"
 
 int main()
 {
   // Test
-  mcu::Map<double> dM;
-  mcu::Map<long>lM;
+  uno::Muth<double> dM;
+  uno::Muth<long>lM;
 
   // Precision
   double delta = 0;

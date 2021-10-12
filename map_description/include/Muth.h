@@ -6,22 +6,23 @@
 //
 // Learning C++ templates and metaprogramming
 // 
+// Changelog 20211012 - namespace, class, file names 
+//
 // GitHub Upload - 20210722 - MIT LICENSE
 // by Jesse Carpenter
 // 
 
-#ifndef CLASS_MAP_HPP
-#define CLASS_MAP_HPP
+#ifndef _UNO_MUTH_H_
+#define _UNO_MUTH_H_
 
-namespace mcu {
-
+namespace uno {
   template<typename T>
-  class Map {
+  class Muth {
   private:
   
   public:
   // Constructor
-    Map() {}
+    Muth() {}
   // Implementation
     T map (T const& x, T const& x1, T const& x2, T const& y1, T const& y2)
     {

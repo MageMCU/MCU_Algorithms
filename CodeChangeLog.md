@@ -1,5 +1,7 @@
 ## Log
 
+
+<p>20211012 - Name changes...</p>
 <p>20210821 - Updates and finalizing the Map Description...</p>
 <p>20210818 - Organizing and classifying the functions...</p>
 <p>20210722 - Map Template Study - View welcome page MageMCU...</p>

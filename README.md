@@ -1,3 +1,5 @@
+# MCU Algorithms
+
 ## Index
 
 - [About - MCU Algorithms](#about-mcu-algorithms)
@@ -30,4 +32,3 @@ The list of functions used to support the analog joystick.
 
 </hr>
 
-Presently formating and organizing for consistency at different sites...

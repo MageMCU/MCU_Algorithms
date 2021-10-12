@@ -11,12 +11,12 @@
 //
 
 #include <iostream>
-#include "../include/map.hpp"
+#include "../include/Muth.h"
 
 int main()
 {
   // Test
-  mcu::Map<double> dM;
+  uno::Muth<double> dM;
 
   double delta = 0;
   double lastDesired = 0;
